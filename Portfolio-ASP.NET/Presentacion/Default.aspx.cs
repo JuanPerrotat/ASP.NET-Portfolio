@@ -13,7 +13,6 @@ namespace Presentacion
         {
 
         }
-
         protected void btnCv_Click(object sender, EventArgs e)
         {   
             Response.Redirect("https://docs.google.com/document/d/1Q6aIaNEK8EzfHfsFgSd4-yYed4ZxKVtAYOsLQyVMhS8/edit?usp=sharing", false);

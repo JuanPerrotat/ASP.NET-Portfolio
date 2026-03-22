@@ -68,8 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\estilos.css" />
+    <Content Include="Images\.NET.png" />
+    <Content Include="Images\Bootstrap.png" />
+    <Content Include="Images\CSharp.png" />
+    <Content Include="Images\css.png" />
     <Content Include="Images\Fallback.png" />
+    <Content Include="Images\Foto.jpg" />
+    <Content Include="Images\HTML.png" />
+    <Content Include="Images\JavaScript.png" />
+    <Content Include="Images\JS.png" />
     <Content Include="Images\Portfolio.png" />
+    <Content Include="Images\SQL Server.png" />
+    <Content Include="Images\Visual Studio Code.png" />
+    <Content Include="Images\Visual Studio Community.png" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
   </ItemGroup>

@@ -26,7 +26,7 @@
                             <a class="nav-link" href="#SobreMi">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Habilidades">Habilidades y herramientas</a>
+                            <a class="nav-link" href="#Tecnologias">Tecnologías</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Proyectos">Proyectos</a>
@@ -52,24 +52,24 @@
                         <div class="row align-items-center">
 
                             <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
-                                <img src="Images/Fallback.png"
+                                <img src="Images/Foto.jpg"
                                     class="rounded-circle mx-auto mb-3"
-                                    style="width: 140px; height: 140px; object-fit: cover;" />
+                                    style="width: 200px; height: 200px; object-fit: cover;" />
                             </div>
 
 
-                        <div class="col-12 col-md-8">
-                        <h2>Sobre mí</h2>
+                            <div class="col-12 col-md-8">
+                                <h2 style="text-align: center;">Sobre mí</h2>
 
-                            <p class="text-muted" style="text-align: justify;">
-                                Soy desarrollador .NET con formación en C# y SQL Server. 
+                                <p class="text-muted" style="text-align: justify;">
+                                    Soy desarrollador .NET con formación en C# y SQL Server. 
                             Tengo experiencia práctica en desarrollo de aplicaciones de escritorio (WinForms),
                             y web (WebForms) con el framework ASP.NET con persistencia en base de datos a través de la librería ADO.NET. 
                             A su vez, tengo conocimientos de control de versiones con Git y también manejo herramientas como HTML, CSS, JavaScript y Bootstrap. 
                             Todos mis proyectos fueron desarrollados con arquitectura en capas, validaciones de datos y manejo de excepciones, 
                             además de persistencia a base de datos con operaciones CRUD y ABM. 
-                            </p>
-                        </div>
+                                </p>
+                            </div>
 
                         </div>
                     </div>
@@ -78,31 +78,62 @@
             </div>
 
         </div>
+        <div class="container mt-5" id="Tecnologias">
 
+            <h2 class="text-center mb-4">Tecnologías</h2>
+            <p class="text-center mb-4">Estas son algunas de las tecnologías sobre las que tengo conocimientos
+                y habilidades que he utilizado en mis proyectos</p>
 
+            <div class="row justify-content-center g-4">
 
-        <%--   <!-- HABILIDADES -->
-        <section id="habilidades" class="section bg-light">
-            <div class="container fade-in">
-                <h2 class="text-center mb-4">Habilidades y herramientas</h2>
-
-                <div id="carouselSkills" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner text-center">
-
-                        <div class="carousel-item active">
-                            <img src="https://via.placeholder.com/100" />
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="https://via.placeholder.com/100" />
-                        </div>
-
-                    </div>
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/CSharp.png" class="tech-icon mb-2" />
+                    <p class="tech-label">C#</p>
                 </div>
-            </div>
-        </section>
 
-        <!-- PROYECTOS -->
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/.NET.png" class="tech-icon mb-2" />
+                    <p class="tech-label">.NET</p>
+                </div>
+
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/SQL Server.png" class="tech-icon mb-2" />
+                    <p class="tech-label">SQL Server</p>
+                </div>
+
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/html.png" class="tech-icon mb-2" />
+                    <p class="tech-label">HTML</p>
+                </div>
+
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/css.png" class="tech-icon mb-2" />
+                    <p class="tech-label">CSS</p>
+                </div>
+
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/JavaScript.png" class="tech-icon mb-2" />
+                    <p class="tech-label">JavaScript</p>
+                </div>
+
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/bootstrap.png" class="tech-icon mb-2" />
+                    <p class="tech-label">Bootstrap</p>
+                </div>
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/Visual Studio Code.png" class="tech-icon mb-2" />
+                    <p class="tech-label">Visual Studio Code</p>
+                </div>
+                <div class="col-6 col-md-4 text-center tech-item">
+                    <img src="Images/Visual Studio Community.png" class="tech-icon mb-2" />
+                    <p class="tech-label">Visual Studio Community</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <%--        <!-- PROYECTOS -->
         <section id="proyectos" class="section">
             <div class="container fade-in">
                 <h2 class="text-center mb-4">Proyectos</h2>
